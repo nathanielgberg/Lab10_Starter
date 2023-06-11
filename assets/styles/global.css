@@ -14,7 +14,17 @@ body.blue {
   background-color: lightblue;
 }
 
+body.red {
+  background-color: red;
+}
+
 body.blue>main {
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px
+}
+
+body.red>main {
   background-color: white;
   border-radius: 5px;
   padding: 30px
@@ -50,6 +60,14 @@ body>header a {
 }
 
 body.blue>header a {
+  border-bottom: 2px solid black;
+  color: black;
+  font-size: 1.4rem;
+  padding-bottom: 2.5px;
+  text-decoration: none;
+}
+
+body.red>header a {
   border-bottom: 2px solid black;
   color: black;
   font-size: 1.4rem;
